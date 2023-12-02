@@ -1,5 +1,7 @@
-build a React based Note WebApplication
+build a React based Note WebApplication.
+
 This React note-taking app allows users to create, view, and delete notes State is managed using React's useState hook to handle note creation, deletion, and search functionality.
+
 The app is structured into components ( HomeScreen , NoteCard , CreateNote ) for modularity and reusability. 
 
 LINK--->   https://notes-reactapp.vercel.app/
