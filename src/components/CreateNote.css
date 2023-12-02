@@ -1,0 +1,44 @@
+.CreateNote {
+    background: linear-gradient(
+      0deg,
+      rgb(191, 99, 224) 0%,
+      rgb(103, 142, 186) 100%
+    );
+    height: 230px;
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CreateInput {
+    height: 140px;
+    width: 330px;
+    border: none;
+    background: none;
+    padding: 20px;
+    margin: 10px;
+    resize: none;
+    font-size: large;
+  }
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+  .saveButton{
+    width: 60px;
+    height: 26px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 15px;
+    margin-top: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    
+  }
+  .belowSection{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
