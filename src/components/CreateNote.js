@@ -9,7 +9,7 @@ function CreateNote(props) {
   function addText(event) {
     curinput = event.target.value;
     setCurInput(curinput);
-  } 
+  }
   function updateText() {
     const newNotes = [...Input, curinput];
     setInput(newNotes);
@@ -24,7 +24,7 @@ function CreateNote(props) {
           onChange={addText}
           value={curinput}
           name=""
-          id="" 
+          id=""
           cols="30"
           rows="10"
           placeholder="Type to add a Note..."

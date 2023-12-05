@@ -8,7 +8,7 @@ function NoteCard(props) {
   const handleInputChange = (event) => {
     setOriginValue(event.target.value);
   };
- 
+
   const deleteNotes = () => {
     document.querySelector(".Note").remove();
   };
