@@ -26,13 +26,13 @@ textarea:focus,
 input:focus {
   outline: none;
 }
-.bottomSection{
+.bottomSection {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   color: rgb(16, 16, 16);
 }
-.bin{
+.bin {
   height: 19px;
   width: 19px;
   margin-top: 3px;
@@ -54,3 +54,115 @@ input:focus {
   background: rgba(216, 236, 246, 0.37);
   border-radius: 10px;
 }
+@media (max-width: 1400px) {
+  .Note {
+    height: 200px;
+    width: 320px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 300px;
+  }
+}
+@media (max-width: 1250px) {
+  .Note {
+    height: 220px;
+    width: 390px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 370px;
+  }
+}
+@media (max-width: 1050px) {
+  .Note {
+    height: 200px;
+    width: 360px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 335px;
+  }
+}
+@media (max-width: 970px) {
+  .Note{
+    height: 200px;
+    width: 320px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 300px;
+  }
+}
+@media (max-width: 870px) {
+  .Note{
+    height: 200px;
+    width: 280px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 260px;
+  }
+}
+@media (max-width: 760px) {
+  .Note{
+    height: 200px;
+    width: 470px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 450px;
+  }
+}
+@media (max-width: 760px) {
+  .Note{
+    height: 200px;
+    width: 430px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 410px;
+  }
+}
+@media (max-width: 560px) {
+  .Note{
+    height: 200px;
+    width: 340px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 320px;
+  }
+}
+@media (max-width: 460px) {
+  .Note{
+    height: 200px;
+    width: 320px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 300px;
+  }
+}
+@media (max-width: 435px) {
+  .Note{
+    height: 200px;
+    width: 300px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 280px;
+  }
+}
+@media (max-width: 400px) {
+  .Note{
+    height: 200px;
+    width: 280px;
+  }
+  .regularInput {
+    height: 120px;
+    width: 260px;
+  }
+}
+
+
