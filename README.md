@@ -1,14 +1,13 @@
-# Note WebApplication.
+# Note WebApp
+### LINK--->   https://notes-reactapp.vercel.app/
+# Notes WebApp Screenshot
 
-## This React note-taking app allows users to create, view, and delete notes State is managed using React's useState hook to handle note creation, deletion, and search functionality.
+![note1](https://github.com/mohdhadi01/NOTES--React-based-Note-App-/assets/113933716/8df3838e-5f51-4370-9558-c08fc9220411)
 
+
+# Description:
+This React note-taking app allows users to create, view, and delete notes State is managed using React's useState hook to handle note creation, deletion, and search functionality.\
 The app is structured into components ( HomeScreen , NoteCard , CreateNote ) for modularity and reusability. 
-
-## LINK--->   https://notes-reactapp.vercel.app/
-
-
-
-
 
 
 # Getting Started with Create React App
