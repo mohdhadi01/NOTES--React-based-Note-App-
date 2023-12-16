@@ -26,7 +26,9 @@ function HomeScreen(e) {
           <CreateNote myvalue={(notes) => setParentText(notes)} />
           <>
             {parentText.map((myinput, i) => {
-              const isMatching= myinput.toLowerCase().includes(searchInput);
+              const isString = typeof myinput === 'string';
+              const isMatching = isString && myinput.toLowerCase().includes(searchInput);
+              // const isMatching= myinput.toLowerCase().includes(searchInput);
               return  isMatching || searchInput===""?  (
                 <NoteCard
                   passvalue={myinput}

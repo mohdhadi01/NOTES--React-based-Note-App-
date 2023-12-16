@@ -42,3 +42,104 @@
     display: flex;
     justify-content: space-between;
   }
+  @media (max-width:1400px) {
+    .CreateNote{
+      height: 200px;
+      width: 320px;
+    }
+    .CreateInput {
+      height: 120px;
+      width: 300px;
+    }
+    
+}
+@media (max-width:1250px) {
+  .CreateNote{
+    height: 220px;
+    width: 390px;
+  }
+  .CreateInput {
+    height: 120px;
+    width: 370px;
+  }
+}
+@media (max-width:1050px) {
+  .CreateNote{
+    height: 200px;
+    width: 360px;
+  }
+  .CreateInput {
+    height: 120px;
+    width: 335px;
+  }
+}
+@media (max-width:970px) {
+  .CreateNote{
+    height: 200px;
+    width: 320px;
+  }
+  .CreateInput {
+    height: 120px;
+    width: 300px;
+  }
+}
+@media (max-width:870px) {
+  .CreateNote{
+    height: 200px;
+    width: 280px;
+  }
+  .CreateInput {
+    height: 120px;
+    width: 260px;
+  }
+}
+@media (max-width:760px) {
+  .CreateNote{
+    height: 200px;
+    width: 430px;
+  }
+  .CreateInput {
+    height: 120px;
+    width: 410px;
+  }
+}
+@media (max-width:560px) {
+  .CreateNote{
+    height: 200px;
+    width: 340px;
+  }
+  .CreateInput {
+    height: 120px;
+    width: 320px;
+  }
+}
+@media (max-width:460px) {
+  .CreateNote{
+    height: 200px;
+    width: 320px;
+  }
+  .CreateInput {
+    height: 120px;
+    width: 300px;
+  }
+}
+@media (max-width: 435px) {
+  .CreateNote{
+    height: 200px;
+    width: 300px;
+  }
+  .CreateInput {
+    height: 120px;
+    width: 280px;
+  }
+}
+@media (max-width: 400px) {
+  .CreateNote{
+    height: 200px;
+    width: 280px;
+  }
+  .CreateInput {
+    height: 120px;
+    width: 260px;
+  }
+}
